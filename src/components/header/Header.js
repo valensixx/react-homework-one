@@ -3,7 +3,7 @@ import React from "react";
 export default function Header(){
     return (
         <div>
-            <p>Hello from header</p>
+           <img src={'/img1.jpg'} style ={{width:'100%'}} />
         </div>
     );
 };
