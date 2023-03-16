@@ -5,7 +5,14 @@ import React,{useState} from "react";
 //"Hello, Gosho!"
 
 export default function Hello(){
+    const[name, setName] = useState('');
     return (
-        <></>
+        <div>
+            <input type="text" 
+            onInput={(e) => 
+                {setName(e.target.value)}}
+            />
+            <div>Hello, {name}</div>
+        </div>
     );
 };
