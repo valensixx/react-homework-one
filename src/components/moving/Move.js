@@ -23,11 +23,11 @@ export default function Move(){
             </div>
             <div style={{height:'300px', display: 'flex', justifyContent: 'center', alignItems: 'center'}}>
                 <div style={{
-                width:'50px', 
-                height: '50px', 
-                background:'blueviolet',
-                marginTop: topBottom,
-                marginLeft: leftRight,
+                    width:'50px', 
+                    height: '50px', 
+                    background:'blueviolet',
+                    marginTop: topBottom,
+                    marginLeft: leftRight,
                 }}>
                 </div>
             </div>
